@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Evil Beds Addon (Bedrock)",
+    "description": "Bedrock behavior pack port of Evil Beds + addon.",
+    "uuid": "0f58a6d0-1cb4-4dea-b5a7-f81757f3f7e1",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "3120d039-cb7e-4fb4-9cc5-17306dbfb4de",
+      "version": [1, 0, 0]
+    }
+  ]
+}
