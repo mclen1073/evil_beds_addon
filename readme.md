@@ -1,22 +1,22 @@
-# Evil Beds Addon
+# Evil Beds Addon (Bedrock)
 
-This repository now contains a playable Minecraft datapack addon that extends the original `evil_bed` behavior.
+This repository now ships a **Bedrock Edition behavior pack** version of the project.
 
-## What the addon does
-- Watches for each time a player sleeps in a bed.
-- Triggers a curse event on that player:
-  - lightning strike,
-  - smoke particles,
-  - phantom ambience,
-  - temporary blindness and slowness,
-  - warning message.
+## Bedrock pack location
+- `Evil+Beds+Datapack-Bedrock/`
 
-## Install
-1. Copy the `Evil+Beds+Datapack` folder into your world's `datapacks` directory.
-2. Run `/reload` in-game.
-3. Sleep in a bed to trigger the addon effects.
+## Structure
+- `manifest.json` - Bedrock behavior pack manifest.
+- `functions/load.json` - functions that run when the pack loads.
+- `functions/tick.json` - functions that run every tick.
+- `functions/evil_bed/*.mcfunction` - ported original Evil Bed logic files.
+- `functions/evil_beds_addon/*.mcfunction` - addon curse logic.
 
-## Files added
-- `data/evil_beds_addon/functions/load.mcfunction`
-- `data/evil_beds_addon/functions/tick.mcfunction`
-- `data/evil_beds_addon/functions/trigger.mcfunction`
+## Install (Bedrock)
+1. Copy `Evil+Beds+Datapack-Bedrock` into your `behavior_packs` folder.
+2. Activate the behavior pack on your world.
+3. Run `/reload` or re-enter the world.
+
+## Notes
+- This change ports the file layout to Bedrock behavior pack format.
+- Some commands may still require Bedrock-specific command tuning depending on your target game version.
